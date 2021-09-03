@@ -1,0 +1,69 @@
+.contractBuilder {
+  position: relative;
+  background-color: #201b20;
+  color: white;
+  top: 0px;
+  bottom: 0;
+  left: 70px;
+  width: 220px;
+  height: 99.8vh;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  overflow-x: hidden;
+}
+.title {
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.create_event {
+  background-color: #93227f;
+  display: flex;
+  margin: 0 10px;
+  border-radius: 13px;
+  width: 240px;
+  align-items: center;
+  justify-content: space-around;
+}
+.create_event div {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.round {
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+}
+.events {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.events div {
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+  margin: 0px 10px;
+  background-color: #d78f24;
+  align-items: flex-start;
+}
+.events p {
+  padding-left: 10px;
+  text-align: left;
+}
+#old_event {
+  background-color: #ae3f9b;
+}
+#draft_event {
+  background-color: #51b64f;
+}
+.a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 680px) {
+  .contractBuilder {
+    left: 0;
+  }
+}
